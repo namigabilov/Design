@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding:0 10rem;
+}
+header{
+    width: 100%;
+}
+header .logo{
+    color: black;
+}
+header .header-all{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    align-items: center;
+}
+header .header-all nav a{
+    padding-right: 30px;
+    color: black;
+}
+header .header-all .menu a{
+    padding-left: 30px;
+    color: black;
+}
+#Design .Design-all{
+    background-color: #f3f3f3;
+    height: 40rem;
+    position: relative;
+}
+#Design .Design-all h1{
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Design .Design-all h3{
+    font-weight: 100;
+    opacity: .6;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Design .Design-all .text{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+#Design .Design-all .img{
+    position: absolute;
+    right: 0;
+}
