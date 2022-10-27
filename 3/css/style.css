@@ -59,8 +59,8 @@ main .btn {
     font-weight: bold;
     z-index: 1;
     position: fixed;
-    right: 30px;
-    bottom: 30px;
+    right: 23px;
+    bottom: 90px;
 }
 main .shopIcon {
     padding: 17px;
